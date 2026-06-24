@@ -213,27 +213,6 @@ $env:OPENAI_API_KEY="sk-..."
 python "C:\Users\<you>\.codex\skills\sticker-travel-scrapbook\scripts\server.py" --project ".\sticker-travel-scrapbook-project.json"
 ```
 
-## ✅ 検証
-
-skill creator の検証スクリプトで Skill を確認できます。
-
-```powershell
-$env:PYTHONUTF8='1'
-python "C:\Users\<you>\.codex\skills\.system\skill-creator\scripts\quick_validate.py" "C:\Users\<you>\.codex\skills\sticker-travel-scrapbook"
-```
-
-期待される出力：
-
-```text
-Skill is valid!
-```
-
-Agent Skills の公式リファレンス検証ツールをインストールしている場合は、次のようにも確認できます。
-
-```bash
-skills-ref validate ./sticker-travel-scrapbook
-```
-
 ## 📌 現在の範囲
 
 これは Skill とローカル GUI のプロトタイプです。標準の Skill 動作は、Codex が能動的に進めるスクラップブック制作ワークフローです。プロンプトパックと GUI は、そのワークフロー内の二つのコントロール方法です。直接画像生成できるかどうかは、ユーザーの Codex/実行環境で利用できる画像ツールまたは API key に依存します。

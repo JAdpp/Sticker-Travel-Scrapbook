@@ -211,27 +211,6 @@ $env:OPENAI_API_KEY="sk-..."
 python "C:\Users\<you>\.codex\skills\sticker-travel-scrapbook\scripts\server.py" --project ".\sticker-travel-scrapbook-project.json"
 ```
 
-## ✅ Validation
-
-Validate the Skill with the built-in skill creator validator:
-
-```powershell
-$env:PYTHONUTF8='1'
-python "C:\Users\<you>\.codex\skills\.system\skill-creator\scripts\quick_validate.py" "C:\Users\<you>\.codex\skills\sticker-travel-scrapbook"
-```
-
-Expected output:
-
-```text
-Skill is valid!
-```
-
-For Agent Skills reference validation, use the official reference validator when available:
-
-```bash
-skills-ref validate ./sticker-travel-scrapbook
-```
-
 ## 📌 Current Boundary
 
 This is a Skill plus local GUI prototype. The default Skill behavior is an agent-led scrapbook authoring workflow; prompt packs and the GUI are two control surfaces inside that workflow. Direct image generation depends on the image tools or API keys available in the user's Codex/runtime environment.

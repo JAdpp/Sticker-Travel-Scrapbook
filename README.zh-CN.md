@@ -211,27 +211,6 @@ python "C:\Users\<you>\.codex\skills\sticker-travel-scrapbook\scripts\server.py"
 
 没有 `OPENAI_API_KEY` 时，GUI 仍然可以构建和导出 prompt；点击直接生图会显示明确的 API key 提示。
 
-## ✅ 校验
-
-可以用 skill creator 的校验脚本检查 Skill：
-
-```powershell
-$env:PYTHONUTF8='1'
-python "C:\Users\<you>\.codex\skills\.system\skill-creator\scripts\quick_validate.py" "C:\Users\<you>\.codex\skills\sticker-travel-scrapbook"
-```
-
-期望输出：
-
-```text
-Skill is valid!
-```
-
-如果已经安装 Agent Skills 官方参考校验器，也可以使用：
-
-```bash
-skills-ref validate ./sticker-travel-scrapbook
-```
-
 ## 📌 当前边界
 
 这是一个 Skill 加本地 GUI 原型。默认 Skill 行为是由 Codex 主动推进的手帐创作流程；prompt pack 和 GUI 是这个流程中的两种控制方式。是否能直接生图取决于用户当前 Codex/运行环境中可用的图像工具或 API key。
