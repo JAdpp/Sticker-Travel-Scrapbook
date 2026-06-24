@@ -1,6 +1,6 @@
 ---
 name: sticker-travel-scrapbook
-description: "Use when the user wants to create, plan, revise, evaluate, or interactively edit East Asian sticker-style travel scrapbook pages, visual travel diaries, dense collage journals, cute itinerary-memory pages, mini-comic travel handbooks, black-and-white line sketch journals, map-infographic scrapbook pages, or polaroid photo collage travel journals from photos, itinerary text, tickets, notes, screenshots, character references, or an existing generated scrapbook image. Also use when the user asks for a GUI, canvas, local app, object editor, project JSON, prompt-pack exporter, or local web workbench for travel scrapbook authoring. Specializes in memory-first multimodal authoring: structuring travel memories, preserving user facts, building editable object manifests, choosing visual routes, maintaining character/style consistency, writing image prompts, launching a local GUI, and supporting localized revisions such as replacing one sticker/photo/text card/panel without redesigning the whole page."
+description: "Use when the user wants to create, plan, revise, evaluate, or interactively edit East Asian sticker-style travel scrapbook pages, visual travel diaries, dense collage journals, cute itinerary-memory pages, mini-comic travel handbooks, black-and-white cartoon doodle journals, map-infographic scrapbook pages, or polaroid photo collage travel journals from photos, itinerary text, tickets, notes, screenshots, character references, or an existing generated scrapbook image. Also use when the user asks for a GUI, canvas, local app, object editor, project JSON, prompt-pack exporter, or local web workbench for travel scrapbook authoring. Specializes in memory-first multimodal authoring: structuring travel memories, preserving user facts, building editable object manifests, choosing visual routes, maintaining character/style consistency, writing image prompts, launching a local GUI, and supporting localized revisions such as replacing one sticker/photo/text card/panel without redesigning the whole page."
 ---
 
 # Sticker Travel Scrapbook
@@ -14,7 +14,7 @@ Use this Skill for:
 - Creating scrapbook prompt packs from travel photos, itineraries, notes, tickets, routes, chat fragments, or rough memory descriptions.
 - Converting an existing generated scrapbook image into an editable plan and object manifest.
 - Revising one region of a generated page while preserving the rest of the layout, characters, text, and style.
-- Choosing among visual routes such as cute sticker comic, black-and-white line sketch, map-infographic scrapbook, polaroid photo collage, and hybrid variants.
+- Choosing among visual routes such as cute sticker comic, black-and-white cartoon doodle, map-infographic scrapbook, polaroid photo collage, and hybrid variants.
 - Designing a workflow or GUI concept for sticker-style travel memory authoring.
 
 ## Core Stance
@@ -90,7 +90,7 @@ Select a visual route before writing prompts. Do not default every page to cute 
 Useful visual routes include:
 
 - `cute sticker comic`: colorful chibi or light manga travel diary, strong character moments, speech bubbles, food and souvenir stickers.
-- `black-and-white line sketch`: monochrome ink, notebook sketch, grey wash, blank caption cards, suitable for reflective city walks, rainy days, museums, or printable zines.
+- `black-and-white cartoon doodle`: simple black marker line art, rounded cartoon shapes, icons, blank caption cards, and generous white space; do not use grayscale detailed manga, grey wash, realistic hatching, or a full illustration merely converted to black and white.
 - `map infographic scrapbook`: route map as the main object, numbered stops, photo slots, transport icons, stamps, concise labels, suitable when place sequence or geography matters.
 - `polaroid photo collage`: instant-photo frames, taped snapshots, film grain, pressed flowers, receipts or map scraps, minimal character presence, suitable when real photos should dominate.
 - `hybrid`: combine a main route above with small comic panels, sticker objects, or photo slots when the memory needs both structure and emotion.

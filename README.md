@@ -6,46 +6,50 @@
 
 `sticker-travel-scrapbook` is a Codex Skill for creating, planning, revising, and interactively editing East Asian sticker-style travel scrapbook pages and mini-comic travel diaries.
 
-It is built for memory-first visual authoring: personal scenes, moods, companions, meals, objects, ticket-like scraps, photo slots, stickers, maps, polaroids, line sketches, and small comic moments. It is not a route-first itinerary board or a clean travel photo book.
+It is built for memory-first visual authoring: personal scenes, moods, companions, meals, objects, ticket-like scraps, photo slots, stickers, maps, polaroids, black-and-white doodles, and small comic moments. It is not a route-first itinerary board or a clean travel photo book.
 
 ## Example Gallery
 
-These are public-safe generated examples. They do not use private travel photos, commercial characters, brand mascots, real tickets, or private people. The same editable object workflow can support different visual routes, not only cute comic rendering.
+These are public-safe generated examples. They do not use private travel photos, commercial characters, brand mascots, real tickets, or private people.
+
+Format and size range, all using the cute comic sticker route:
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <strong>Cute comic sticker page</strong><br>
+    <td width="44%" rowspan="2" valign="top">
+      <strong>Long phone page: Kyoto rainy temple street</strong><br>
       <img src="assets/examples/kyoto-rainy-temple.jpg" alt="Kyoto rainy temple scrapbook example" width="100%">
     </td>
-    <td width="50%" valign="top">
-      <strong>Black-and-white line drawing</strong><br>
-      <img src="assets/examples/ink-line-rainy-temple.jpg" alt="Black-and-white line drawing travel scrapbook example" width="100%">
+    <td width="56%" valign="top">
+      <strong>Single page: Seoul hanok village and night market</strong><br>
+      <img src="assets/examples/seoul-hanok-market.jpg" alt="Seoul hanok market scrapbook example" width="100%">
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <strong>Map-based information scrapbook</strong><br>
-      <img src="assets/examples/map-infographic-coastal-train.jpg" alt="Map infographic travel scrapbook example" width="100%">
-    </td>
-    <td width="50%" valign="top">
-      <strong>Polaroid photo collage</strong><br>
-      <img src="assets/examples/polaroid-weekend-notes.jpg" alt="Polaroid photo collage travel scrapbook example" width="100%">
+    <td width="56%" valign="top">
+      <strong>Two-page spread: Taiwan coastal train and lantern old street</strong><br>
+      <img src="assets/examples/taiwan-coastal-train.jpg" alt="Taiwan coastal train scrapbook example" width="100%">
     </td>
   </tr>
 </table>
 
-Additional layout examples:
+Visual route examples:
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <strong>Single page: Seoul hanok village and night market</strong><br>
-      <img src="assets/examples/seoul-hanok-market.jpg" alt="Seoul hanok market scrapbook example" width="100%">
+    <td width="44%" rowspan="2" valign="top">
+      <strong>Black-and-white cartoon doodle</strong><br>
+      <img src="assets/examples/black-white-doodle-rainy-temple.jpg" alt="Black-and-white cartoon doodle travel scrapbook example" width="100%">
     </td>
-    <td width="50%" valign="top">
-      <strong>Two-page spread: Taiwan coastal train and lantern old street</strong><br>
-      <img src="assets/examples/taiwan-coastal-train.jpg" alt="Taiwan coastal train scrapbook example" width="100%">
+    <td width="56%" valign="top">
+      <strong>Map-based information scrapbook</strong><br>
+      <img src="assets/examples/map-infographic-coastal-train.jpg" alt="Map infographic travel scrapbook example" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td width="56%" valign="top">
+      <strong>Polaroid photo collage</strong><br>
+      <img src="assets/examples/polaroid-weekend-notes.jpg" alt="Polaroid photo collage travel scrapbook example" width="100%">
     </td>
   </tr>
 </table>
@@ -54,7 +58,7 @@ Additional layout examples:
 
 - Structures travel materials into scrapbook-ready memory scenes.
 - Plans East Asian sticker-style layouts and mini-comic pages.
-- Chooses among visual routes such as cute comic stickers, black-and-white line sketch, map infographic, and polaroid photo collage.
+- Chooses among visual routes such as cute comic stickers, black-and-white cartoon doodle, map infographic, and polaroid photo collage.
 - Creates editable object manifests with stable IDs such as `P1-IMG1`, `P1-TXT1`, `P1-CHR1`, `P1-STK1`, and `P1-PNL1`.
 - Maintains character and style consistency across pages.
 - Generates copyable image prompts for new pages or targeted revisions.
@@ -77,7 +81,7 @@ Sticker-Travel-Scrapbook/
     brand/
       banner.jpg
     examples/
-      ink-line-rainy-temple.jpg
+      black-white-doodle-rainy-temple.jpg
       kyoto-rainy-temple.jpg
       map-infographic-coastal-train.jpg
       polaroid-weekend-notes.jpg

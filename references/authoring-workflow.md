@@ -44,7 +44,7 @@ Use the form that best preserves memory density:
 
 ## Step 4: Choose Visual Route And Plan Page Zones
 
-Choose the route that best fits the materials before writing final prompts: cute sticker comic, black-and-white line sketch, map infographic scrapbook, polaroid photo collage, or a hybrid.
+Choose the route that best fits the materials before writing final prompts: cute sticker comic, black-and-white cartoon doodle, map infographic scrapbook, polaroid photo collage, or a hybrid.
 
 For each page, specify:
 
