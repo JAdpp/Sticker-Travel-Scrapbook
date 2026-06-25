@@ -24,8 +24,6 @@ By default, it is an agent-led workflow rather than only a prompt generator. A u
 
 ## 🖼️ Example Gallery
 
-These are public-safe generated examples. They do not use private travel photos, commercial characters, brand mascots, real tickets, or private people.
-
 Format and size range, using one cute sticker comic route:
 
 <table>
